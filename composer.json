@@ -1,0 +1,17 @@
+{
+    "name": "ricardotulio/openrss",
+    "description": "OpenSource Rss API",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Ledo de Tulio",
+            "email": "ledo.tulio@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
