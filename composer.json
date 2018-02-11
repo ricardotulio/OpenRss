@@ -30,7 +30,7 @@
         }
     },
     "scripts": {
-        "test": "phpunit",
+        "test": "phpunit -c phpunit.xml",
         "phpcs": "phpcs --standard=PSR1,PSR2 --extensions=.php --ignore=vendor/ *",
         "phpmd": "phpmd . text cleancode,codesize,controversial,design,naming,unusedcode --suffix .php --exclude vendor/,bootstrap/",
         "lint": [
