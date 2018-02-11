@@ -18,12 +18,7 @@
   </testsuites>
   <filter>
     <whitelist>
-        <directory>./app</directory>
-        <exclude>
-          <file>./bootstrap/app.php</file>
-          <directory>./tests</directory>
-          <directory>./vendor</directory>
-        </exclude>
+        <directory suffix=".php">./app</directory>
     </whitelist>
   </filter>
   <logging>
