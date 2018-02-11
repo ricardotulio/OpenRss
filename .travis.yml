@@ -6,6 +6,10 @@ php:
 install:
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install --dev --no-interaction
+  - mkdir -p build/logs
 script:
   - composer test
   - composer lint
+
+after_success:
+    - travis_retry php vendor/bin/php-coveralls
