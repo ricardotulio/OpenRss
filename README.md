@@ -1,5 +1,6 @@
 # OpenRss
 [![Build Status](https://travis-ci.org/ricardotulio/OpenRss.svg?branch=master)](https://travis-ci.org/ricardotulio/OpenRss)
+
 It's OpenSource Rss Feed API.
 
 ## Getting Started
