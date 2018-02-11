@@ -12,4 +12,4 @@ Just clone this project.
 `$ php -S localhost:8080 -t public/`.
 
 ## Testing
-To run library tests, run `$ vendor/bin/phpunit`.
+To run library tests, run `composer test`.
